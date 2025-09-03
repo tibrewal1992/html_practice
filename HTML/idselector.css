@@ -1,0 +1,201 @@
+div {
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+
+
+
+
+}
+
+#one {
+
+    background-color: blue;
+}
+
+
+#two {
+
+
+    background-color: chartreuse;
+}
+
+
+#three {
+
+
+
+    background-color: brown;
+}
+
+.child {
+
+
+    border-radius: 50px;
+
+}
+
+.child1 {
+
+    height: 200px;
+    width: 200px;
+
+
+}
+
+
+p::first-line {
+
+
+    color: green;
+}
+
+p::first-letter {
+
+
+
+
+    color: blue;
+    font-size: large;
+    font-style: italic;
+}
+
+p::after {
+
+    content: url(Boyimage.jpg);
+
+}
+
+
+p::before {
+
+    content: url(Boyimage.jpg);
+
+}
+
+P::selection {
+
+    background-color: red;
+    color: bisque;
+
+
+
+
+
+}
+
+
+
+/* li{
+
+    list-style-type: none;
+} */
+
+
+
+/* 
+li::marker{
+
+
+
+
+
+
+content: url(Boyimage.jpg);
+
+
+
+
+
+} */
+
+
+li::marker{
+
+
+content:"😊 ";
+
+
+
+
+} 
+
+
+a:link {
+    color: red;
+    background-color: blue;
+
+
+}
+
+a :active {
+
+    background-color: green;
+
+}
+
+a:visited {
+
+
+
+    color:green;
+
+    background-color: darkmagenta;
+}
+
+
+div{
+
+    border: 2px solid;
+    height: 300px;
+    width: 900px;
+}
+
+#six:hover{
+
+
+    background-color: red;
+}
+
+
+input:focus{
+
+
+
+    background-color: aqua;
+    color:blue;
+}
+
+input[type="radio"]:checked{
+
+
+
+
+
+    height: 50px;
+    width: 50px;
+    accent-color:blue
+
+}
+
+div > h1{ background-color: brown;
+
+}
+
+div h1{
+
+
+    background-color: green;
+}
+
+
+span + h1 {
+
+    background-color: blue ;
+}
+
+div~h1{
+
+
+    background-color: cadetblue;
+}
